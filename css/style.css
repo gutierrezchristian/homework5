@@ -92,7 +92,7 @@ footer{
     /*Your code here.*/
     /*Don't forget to vertically and horizontally alight the card*/
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
@@ -231,6 +231,19 @@ header{
   }
   /*Your code here again.*/
   /*You will want four selectors*/  
+  body{
+    background-image: none;
+  }
+  .pricing{
+    vertical-align: top;
+  }
+  .gallery{
+    display: none;
+
+  }
+  #gallery{
+    display: none;
+  }
 }
 
 /*Your code here again.*/ 
