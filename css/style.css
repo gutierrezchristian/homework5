@@ -152,9 +152,9 @@ footer{
   min-height: 600px;
   /*Your code here again.*/
   display: flex;
-  justify-items: center;
-  align-items: center;
-  
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
 }
 
 .gallery > img{
