@@ -94,7 +94,7 @@ footer{
     display: flex;
     flex-direction: row;
     align-items: center;
-    flex-wrap: wrap;
+    /*flex-wrap: wrap;*/
 }
 
 .card {
@@ -104,7 +104,7 @@ footer{
   padding: 0 0 50px 0;
   /*Your code here.*/
   /*Take a look at flex-basis*/
-  flex-basis: 400px;
+  /*flex-basis: 400px;*/
 }
 
 .card > header{
